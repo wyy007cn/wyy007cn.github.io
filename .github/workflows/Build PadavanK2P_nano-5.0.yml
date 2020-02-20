@@ -6,7 +6,7 @@
 # Build: 2020-02-04 21:08
 #=================================================
 
-name: Padavan-K2P_nano-5.0
+name: Build PadavanK2P_nano-5.0
 
 on: 
   release:
