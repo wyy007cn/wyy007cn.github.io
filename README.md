@@ -1,16 +1,18 @@
 <p align=center>
   <br>
-  #[wyy007cn.github.io](http://wyy007cn.github.io/)      (https://wyy007cn.netlify.com/)
+  #[wyy007cn.github.io]
+  (https://wyy007cn.github.io/)    
+  (https://wyy007cn.netlify.com/)
   <span>Phicomm K2P Openwrt Autobuild | 斐讯 K2P Openwrt 自动编译</span>
   <br>
   <span>Customize your own OpenWrt firmware for Phicomm K2P using Github Actions.</span>
   <br>
   <br>
   <a target="_blank" href="LICENSE" title="License: MIT"><img src="https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE"></a>
-  <a target="_blank" href="https://github.com/wyy007cn/K2P-Padavan-build/stargazers" title="Stars"><img src="https://img.shields.io/github/stars/wyy007cn/K2P-Padavan-build.svg?style=flat-square&label=Stars"></a>
-  <a target="_blank" href="https://github.com/wyy007cn/K2P-Padavan-build/fork" title="Forks"><img src="https://img.shields.io/github/forks/wyy007cn/K2P-Padavan-build.svg?style=flat-square&label=Forks"></a>
+  <a target="_blank" href="https://github.com/wyy007cn/wyy007cn.github.io/stargazers" title="Stars"><img src="https://img.shields.io/github/stars/wyy007cn/wyy007cn.github.io.svg?style=flat-square&label=Stars"></a>
+  <a target="_blank" href="https://github.com/wyy007cn/wyy007cn.github.io/fork" title="Forks"><img src="https://img.shields.io/github/forks/wyy007cn/wyy007cn.github.io.svg?style=flat-square&label=Forks"></a>
   <br>
-  <a target="_blank" href="https://github.com/wyy007cn/K2P-Padavan-build/actions" title="GitHub Actions Workflow Status"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/wyy007cn/K2P-Padavan-build/Build%20OpenWrt%20for%20K2P?style=for-the-badge"></a>
+  <a target="_blank" href="https://github.com/wyy007cn/wyy007cn.github.io/actions" title="GitHub Actions Workflow Status"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/wyy007cn/wyy007cn.github.io/Build%20OpenWrt%20for%20K2P?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -68,5 +70,5 @@
 
 ## License
 
-MIT © [wyy](https://github.com/wyy)
+MIT © [wyy](https://wyy007cn.github.io/)
 
