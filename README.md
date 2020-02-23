@@ -1,6 +1,6 @@
 <p align=center>
   <br>
-  #[wyy007cn.github.io](http://wyy007cn.github.io/)(https://wyy007cn.netlify.com/)
+  #[wyy007cn.github.io](http://wyy007cn.github.io/)      (https://wyy007cn.netlify.com/)
   <span>Phicomm K2P Openwrt Autobuild | 斐讯 K2P Openwrt 自动编译</span>
   <br>
   <span>Customize your own OpenWrt firmware for Phicomm K2P using Github Actions.</span>
@@ -61,7 +61,7 @@
 
 - [GitHub Actions](https://github.com/features/actions)
 - [OpenWrt](https://github.com/openwrt/openwrt)
-- [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)
+- [Lean's OpenWrt](https://github.com/project-openwrt/lean-lede.git)
 - [hiboy](https://github.com/hiboyhiboy/rt-n56u)
 - [hanwckf](https://github.com/hanwckf/rt-n56u)
 - [chongshengB](https://github.com/chongshengB/rt-n56u)
