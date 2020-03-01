@@ -13,6 +13,7 @@ on:
       - master
     paths:
       - "Router-config/K2P/K2P.config"
+      - 'Router-config/K2P/diy.sh'
   #  schedule:
   #    - cron: 0 8 * * 5
   watch:
