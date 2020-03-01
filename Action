@@ -11,3 +11,17 @@ https://zhuanlan.zhihu.com/p/94402324
           git remote add openwrt https://github.com/coolsnowwolf/lede.git
           git pull openwrt master
           git remote -v
+
+
+2.使用自定义配置进行编译
+首先我们打开Code选项卡，找到.github/workflows/openwrt-ci-yml这个文件，点击编辑：
+
+注意事项：
+
+①需要DIY哪个功能，就将cat、CONFIG、EOF前面的#号和空格删掉。
+
+②去掉#号之后，cat、CONFIG、以及EOF要和上面的#号对齐
+
+③编辑之后，需要点击【Start commit】和【Commit changes】提交修改。
+
+④新人尽量每次修改只改5行以内代码，并在提交代码时写好修改记录。
