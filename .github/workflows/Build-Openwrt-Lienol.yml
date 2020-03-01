@@ -19,7 +19,7 @@ env:
   REPO_URL: https://github.com/Lienol/openwrt.git
   REPO_BRANCH: dev-19.07
   CONFIG_FILE: Lienol.config
-  DIY_SH: diy.sh
+  DIY_SH: curl -fsSL https://github.com/wyy007cn/wyy007cn.github.io/tree/master/Router-config/K2P/diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
