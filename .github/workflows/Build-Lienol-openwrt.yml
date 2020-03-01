@@ -21,7 +21,8 @@ env:
   UPLOAD_BIN_DIR: false
   UPLOAD_FIRMWARE: true
   TZ: Asia/Shanghai
-
+  watch:
+    types: [started]
 jobs:
   build:
     runs-on: ubuntu-latest
