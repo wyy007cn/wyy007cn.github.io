@@ -1,0 +1,13 @@
+https://zhuanlan.zhihu.com/p/94527343
+
+https://zhuanlan.zhihu.com/p/94402324
+
+第二点，如何每天定时同步Lean的源码。
+
+在openwrt-ci.yml中的sudo -E apt-get clean后面加一组workflow即可
+
+      - name: 同步最新的源码
+        run: |
+          git remote add openwrt https://github.com/coolsnowwolf/lede.git
+          git pull openwrt master
+          git remote -v
