@@ -2,6 +2,8 @@ https://zhuanlan.zhihu.com/p/94527343
 
 https://zhuanlan.zhihu.com/p/94402324
 
+https://github.com/KFERMercer/OpenWrt-CI
+
 第二点，如何每天定时同步Lean的源码。
 
 在openwrt-ci.yml中的sudo -E apt-get clean后面加一组workflow即可
