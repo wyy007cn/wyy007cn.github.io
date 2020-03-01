@@ -56,7 +56,7 @@ jobs:
       - name: Load custom configuration
         env:
           CONFIG_FILE: "K2P.config"
-          DIY_SH: "https://github.com/wyy007cn/wyy007cn.github.io/tree/master/Router-config/K2P/diy.sh"
+          DIY_SH: Router-config/K2P/diy.sh
         run: |
           [ -e files ] && mv files openwrt/files
           [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
