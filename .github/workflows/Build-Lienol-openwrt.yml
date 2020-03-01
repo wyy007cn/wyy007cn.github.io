@@ -8,6 +8,8 @@ on:
       - master
     paths:
       - 'Router-config/K2P/.config'
+      - 'Router-config/K2P/diy.sh'
+#     - '.github/workflows/Build-Gitea.yml'
 #  schedule:
 #    - cron: 0 4 * * 5 # 北京时间每周五中午12:00编译
   watch:
