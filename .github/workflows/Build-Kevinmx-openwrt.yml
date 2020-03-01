@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - '.config'
+      - 'Router-config/K2P/kevinmx.config'
 #schedule:
 #  - cron: 0 4 * * 5 # 北京时间每周五中午12:00编译
   watch:
