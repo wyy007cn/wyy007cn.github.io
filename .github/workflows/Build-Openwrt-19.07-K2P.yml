@@ -14,8 +14,8 @@ on:
     paths:
       - "Router-config/K2P/K2P-19.07.config"
       - 'Router-config/K2P/diy.sh'
-   schedule:
-     - cron: 0 8 * * 7
+#   schedule:
+#     - cron: 0 8 * * 7
   watch:
     types: [started]
 
