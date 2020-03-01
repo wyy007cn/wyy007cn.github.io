@@ -1,4 +1,4 @@
-name: Build OpenWrt
+name: Build OpenWrt of Kevinmx
 
 on:
   release:
@@ -12,9 +12,9 @@ on:
     - cron: 0 4 * * 5 # 北京时间每周五中午12:00编译
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt.git
+  REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: dev-19.07
-  CONFIG_FILE: .config
+  CONFIG_FILE: kevinmx.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
@@ -109,5 +109,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
+        name: Kevinmx_OpenWrt_firmware
         path: ${{ env.FIRMWARE }}
