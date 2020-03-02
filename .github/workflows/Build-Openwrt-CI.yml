@@ -12,19 +12,19 @@ on:
     branches:
       - master
     paths:
-      - 'diy3.sh'
+      - 'Router-config/K2P/diy3.sh'
 #  schedule:
 #    - cron: 0 8 * * 5
-#  release:
-#    types: [published]
-#  watch:
-#    types: [started]
+  release:
+    types: [published]
+  watch:
+    types: [started]
 
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   CONFIG_FILE: .config
-  DIY_SH: diy3.sh
+  DIY_SH: Router-config/K2P/diy3.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
