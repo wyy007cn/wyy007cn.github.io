@@ -3,7 +3,7 @@
 # Lisence: MIT
 # Author: tjuyy
 #=================================================
-name: Build Lean's OpenWrt for K2P
+name: Build Openwrt Lean K2P
 
 on:
   release:
@@ -104,7 +104,7 @@ jobs:
         uses: actions/upload-artifact@master
         if: always()
         with:
-          name: OpenWrt-K2P-Firmware
+          name: OpenWrt-Lean-K2P
           path: ${{ env.FIRMWARE }}
 
       - name: Publish release
