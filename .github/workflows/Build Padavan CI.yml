@@ -10,20 +10,20 @@ name: Build Padavan CI
 
 on: 
 
-#  push:
-#    branches: 
-#      - master
-#    paths:
-#      - 'diy.sh'
+  push:
+    branches: 
+      - master
+    paths:
+      - 'Router-config/K2P/diy2.sh'
 #  schedule:
 #    - cron: 0 8 * * *
   release:
     types: [published]
-#  watch:
-#    types: [started]
+  watch:
+    types: [started]
 
 env:
-  DIY_SH: diy.sh
+  DIY_SH: Router-config/K2P/diy2.sh
   SSH_ACTIONS: false
   # K2_nano K2P_nano K2P_nano-5.0
   TNAME: K2P_nano-5.0
