@@ -1,4 +1,4 @@
-name: Build-Lienol-openwrt
+name: Build-OpenWrt-Lienol
 
 on:
   release:
@@ -113,5 +113,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: Lienol_OpenWrt_K2P_firmware
+        name: OpenWrt_Lienol_K2P_firmware
         path: ${{ env.FIRMWARE }}
