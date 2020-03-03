@@ -1,4 +1,4 @@
-name: Build OpenWrt of Kevinmx
+name: Build OpenWrt CI
 
 on:
   release:
@@ -7,8 +7,8 @@ on:
     branches:
       - master
     paths:
-      - 'Router-config/K2P/kevinmx.config'
-      - 'Router-config/K2P/diy.sh'
+      - 'Router-config/K2P/OpenWrt K2P.config'
+      - 'Router-config/K2P/OpenWrt diy.sh'
 #schedule:
 #  - cron: 0 4 * * 5 # 北京时间每周五中午12:00编译
   watch:
@@ -17,8 +17,9 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: kevinmx.config
-  DIY_SH: Router-config/K2P/diy.sh
+#  REPO_BRANCH: openwrt-19.07
+  CONFIG_FILE: OpenWrt K2P.config
+  DIY_SH: Router-config/K2P/OpenWrt diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
