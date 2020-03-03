@@ -7,7 +7,8 @@
 # Build 2020-02-18 19:15
 #=================================================
 # 替换默认IP
-sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
+
 # 删除APP
 sed -i 's/-app-filetransfer luci-app-vsftpd luci-/-/g' include/target.mk
 sed -i 's/-app-pptp-server luci-/-/g' include/target.mk
@@ -19,3 +20,14 @@ sed -i 's/luci-app-zerotier luci-app-xlnetacc/open-vm-tools/g' target/linux/x86/
 sed -i '/samba.lua/ s/^/#/g' package/lean/default-settings/files/zzz-default-settings
 # 替换匹配下一行
 sed -i '/Include ShadowsocksR Server/{n;s/y if x86_64/n/g}' package/lean/luci-app-ssr-plus/Makefile
+
+
+# Add Luci-theme
+packages_path=package/openwrt-packages
+mkdir -p $packages_path
+
+git clone https://github.com/openwrt-develop/luci-theme-atmaterial $packages_path/luci-theme-atmaterial
+
+# Modify default IP
+sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168/10.0/g' package/base-files/files/bin/config_generate
