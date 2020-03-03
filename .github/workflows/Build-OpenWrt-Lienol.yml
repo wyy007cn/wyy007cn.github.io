@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - 'Router-config/K2P/.config'
+      - 'Router-config/K2P/Lienol.config'
       - 'Router-config/K2P/diy.sh'
 #     - '.github/workflows/Build-Gitea.yml'
 #  schedule:
