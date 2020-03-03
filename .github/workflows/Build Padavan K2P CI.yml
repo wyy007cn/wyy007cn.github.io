@@ -14,7 +14,7 @@ on:
     branches: 
       - master
     paths:
-      - 'Router-config/K2P/Padavan diy.sh'
+      - 'Router-config/K2P/Padavan.sh'
 #  schedule:
 #    - cron: 0 8 * * *
   release:
@@ -23,7 +23,7 @@ on:
     types: [started]
 
 env:
-  DIY_SH: Router-config/K2P/Padavan diy.sh
+  DIY_SH: Router-config/K2P/Padavan.sh
   SSH_ACTIONS: false
   # K2_nano K2P_nano K2P_nano-5.0
   TNAME: K2P_nano-5.0
