@@ -8,7 +8,7 @@ on:
       - master
     paths:
       - 'Router-config/K2P/OpenWrt K2P.config'
-      - 'Router-config/K2P/OpenWrt diy.sh'
+      - 'Router-config/K2P/OpenWrt.sh'
 #schedule:
 #  - cron: 0 4 * * 5 # 北京时间每周五中午12:00编译
   watch:
@@ -19,7 +19,7 @@ env:
   REPO_BRANCH: master
 #  REPO_BRANCH: openwrt-19.07
   CONFIG_FILE: OpenWrt K2P.config
-  DIY_SH: Router-config/K2P/OpenWrt diy.sh
+  DIY_SH: Router-config/K2P/OpenWrt.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
   UPLOAD_BIN_DIR: false
