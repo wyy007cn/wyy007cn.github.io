@@ -113,5 +113,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: Kevinmx_OpenWrt_firmware
+        name: OpenWrt-K2P-CI_firmware
         path: ${{ env.FIRMWARE }}
