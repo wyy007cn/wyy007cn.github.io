@@ -10,24 +10,24 @@
 #sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
 
 # 删除APP
-sed -i 's/-app-filetransfer luci-app-vsftpd luci-/-/g' include/target.mk
-sed -i 's/-app-pptp-server luci-/-/g' include/target.mk
-sed -i 's/-app-nlbwmon luci-/-/g' include/target.mk
-sed -i 's/-app-zerotier luci-app-ipsec-vpnd luci-app-pptp-server luci-/-/g' target/linux/x86/Makefile
-sed -i 's/-app-qbittorrent luci-/-/g' target/linux/x86/Makefile
-sed -i 's/luci-app-zerotier luci-app-xlnetacc/open-vm-tools/g' target/linux/x86/Makefile
+#sed -i 's/-app-filetransfer luci-app-vsftpd luci-/-/g' include/target.mk
+#sed -i 's/-app-pptp-server luci-/-/g' include/target.mk
+#sed -i 's/-app-nlbwmon luci-/-/g' include/target.mk
+#sed -i 's/-app-zerotier luci-app-ipsec-vpnd luci-app-pptp-server luci-/-/g' target/linux/x86/Makefile
+#sed -i 's/-app-qbittorrent luci-/-/g' target/linux/x86/Makefile
+#sed -i 's/luci-app-zerotier luci-app-xlnetacc/open-vm-tools/g' target/linux/x86/Makefile
 # 注释匹配行
-sed -i '/samba.lua/ s/^/#/g' package/lean/default-settings/files/zzz-default-settings
+#sed -i '/samba.lua/ s/^/#/g' package/lean/default-settings/files/zzz-default-settings
 # 替换匹配下一行
-sed -i '/Include ShadowsocksR Server/{n;s/y if x86_64/n/g}' package/lean/luci-app-ssr-plus/Makefile
+#sed -i '/Include ShadowsocksR Server/{n;s/y if x86_64/n/g}' package/lean/luci-app-ssr-plus/Makefile
 
 
 # Add Luci-theme
-packages_path=package/openwrt-packages
-mkdir -p $packages_path
+#packages_path=package/openwrt-packages
+#mkdir -p $packages_path
 
-git clone https://github.com/openwrt-develop/luci-theme-atmaterial $packages_path/luci-theme-atmaterial
+#git clone https://github.com/openwrt-develop/luci-theme-atmaterial $packages_path/luci-theme-atmaterial
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
-sed -i 's/192.168/10.0/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168/10.0/g' package/base-files/files/bin/config_generate
